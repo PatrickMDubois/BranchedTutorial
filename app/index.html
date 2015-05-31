@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="BranchedTutorial">
   <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -7,7 +7,25 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="modernizr/modernizr.js"></script>
   </head>
-  <body>
-    I am the boilerplate
+  <body ng-controller="mainController">
+    <select ng-model="selectedVersion"
+            ng-options="version for version in versions">
+    </select>
+
+    <tutorial ng-repeat="(version, data) in tutorial"
+              ng-if="version == selectedVersion"
+              tutorial="data">
+    </tutorial>
+
+    <script src="/angularjs/angular.js"></script>
+
+    <script src="/scripts/templates.js"></script>
+    <script src="/scripts/app.js"></script>
+
+    <script src="/scripts/tutorialService.js"></script>
+
+    <script src="/scripts/mainController.js"></script>
+
+    <script src="/scripts/tutorialDirective.js"></script>
   </body>
 </html>

@@ -40,7 +40,7 @@ textarea {
   resize: vertical;
 }
 
-input, textarea, select {
+input, textarea {
   @include appearance(none);
   font: inherit;
   line-height: inherit;

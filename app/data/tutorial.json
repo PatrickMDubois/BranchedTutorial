@@ -1,0 +1,38 @@
+{
+  "PhotoshopCS6": [
+    {
+      "type": "title",
+      "text": "Remove red eyes in Photoshop"
+    },
+    {
+      "type": "paragraph",
+      "text": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin bibendum nisl id justo commodo, sed porttitor dui sodales. Donec vitae ullamcorper libero, a malesuada tortor. Cras hendrerit consectetur lorem, vitae elementum sapien dignissim sit amet. Aenean condimentum dapibus lectus, vel egestas mauris auctor ac. Maecenas ut massa lorem. Nam mauris tellus, convallis vitae laoreet quis, auctor placerat odio. Duis nec faucibus diam. Nulla porta, tortor a fermentum iaculis, urna mi aliquet ante, sed interdum mauris nisi id libero."
+    },
+    {
+      "type": "image",
+      "url": "http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin bibendum nisl id justo commodo, sed porttitor dui sodales. Donec vitae ullamcorper libero, a malesuada tortor. Cras hendrerit consectetur lorem, vitae elementum sapien dignissim sit amet. Aenean condimentum dapibus lectus, vel egestas mauris auctor ac. Maecenas ut massa lorem. Nam mauris tellus, convallis vitae laoreet quis, auctor placerat odio. Duis nec faucibus diam. Nulla porta, tortor a fermentum iaculis, urna mi aliquet ante, sed interdum mauris nisi id libero."
+    }
+  ],
+  "GIMP": [
+    {
+      "type": "title",
+      "text": "Remove red eyes in GIMP"
+    },
+    {
+      "type": "paragraph",
+      "text": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin bibendum nisl id justo commodo, sed porttitor dui sodales. Donec vitae ullamcorper libero, a malesuada tortor. Cras hendrerit consectetur lorem, vitae elementum sapien dignissim sit amet. Aenean condimentum dapibus lectus, vel egestas mauris auctor ac. Maecenas ut massa lorem. Nam mauris tellus, convallis vitae laoreet quis, auctor placerat odio. Duis nec faucibus diam. Nulla porta, tortor a fermentum iaculis, urna mi aliquet ante, sed interdum mauris nisi id libero."
+    },
+    {
+      "type": "image",
+      "url": "http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin bibendum nisl id justo commodo, sed porttitor dui sodales. Donec vitae ullamcorper libero, a malesuada tortor. Cras hendrerit consectetur lorem, vitae elementum sapien dignissim sit amet. Aenean condimentum dapibus lectus, vel egestas mauris auctor ac. Maecenas ut massa lorem. Nam mauris tellus, convallis vitae laoreet quis, auctor placerat odio. Duis nec faucibus diam. Nulla porta, tortor a fermentum iaculis, urna mi aliquet ante, sed interdum mauris nisi id libero."
+    }
+  ]
+}
