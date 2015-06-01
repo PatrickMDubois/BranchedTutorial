@@ -1,1 +1,5 @@
-{{tutorial}}
+<div ng-repeat="element in tutorial">
+    <h1 ng-if="element.type=='title'">{{element.text}}</h1>
+    <p ng-if="element.type=='paragraph'">{{element.text}}</p>
+    <img height="200px" ng-if="element.type=='image'" src="{{element.url}}" />
+</div>
