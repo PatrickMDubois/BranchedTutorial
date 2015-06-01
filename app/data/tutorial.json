@@ -1,5 +1,5 @@
 {
-  "PhotoshopCS6": [
+  "Photoshop": [
     {
       "type": "title",
       "text": "Photoshop: Red Eye Fix for Difficult Cases in People and Pets"
@@ -7,6 +7,14 @@
     {
       "type": "paragraph",
       "text": "Recent versions of Photoshop have an automatic Red Eye Removal tool. But what do you do when that tool fails as it does all too often with people, and always with pets?"
+    },
+    {
+      "type": "notes",
+      "id": "1",
+      "notes": [
+        "This is a comment for this paragraph.",
+        "This is another comment for the same paragraph."
+      ]
     },
     {
       "type": "paragraph",

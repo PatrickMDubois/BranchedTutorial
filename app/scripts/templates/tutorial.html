@@ -2,4 +2,7 @@
     <h1 ng-if="element.type=='title'">{{element.text}}</h1>
     <p ng-if="element.type=='paragraph'">{{element.text}}</p>
     <img ng-if="element.type=='image'" src="{{element.url}}" />
+    <div ng-if="element.type=='notes'" ng-repeat="note in element.notes">
+        <p>{{note}}</p>
+    </div>
 </div>
