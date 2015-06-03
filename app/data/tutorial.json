@@ -14,6 +14,13 @@
       ]
     },
     {
+      "type": "branches",
+      "branches": [
+        "GIMP",
+        "Photoshop"
+      ]
+    },
+    {
       "type": "paragraph",
       "text": "Here’s one technique that I like to use. I’m going to illustrate it on a pet photo featuring “green eye”, but the same trick works on people with red eye, too."
     },
