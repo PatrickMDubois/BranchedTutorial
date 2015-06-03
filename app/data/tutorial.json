@@ -6,14 +6,14 @@
     },
     {
       "type": "paragraph",
-      "text": "Recent versions of Photoshop have an automatic Red Eye Removal tool. But what do you do when that tool fails as it does all too often with people, and always with pets?"
-    },
-    {
-      "type": "notes",
-      "id": "1",
+      "text": "Recent versions of Photoshop have an automatic Red Eye Removal tool. But what do you do when that tool fails as it does all too often with people, and always with pets?",
       "notes": [
-        "This is a note for this paragraph.",
-        "This is another note for the same paragraph."
+        {
+          "note": "This is a note for this paragraph."
+        },
+        {
+          "note": "This is another note for the same paragraph."
+        }
       ]
     },
     {
