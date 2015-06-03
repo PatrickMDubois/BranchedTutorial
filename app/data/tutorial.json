@@ -9,10 +9,7 @@
       "text": "Recent versions of Photoshop have an automatic Red Eye Removal tool. But what do you do when that tool fails as it does all too often with people, and always with pets?",
       "notes": [
         {
-          "note": "This is a note for this paragraph."
-        },
-        {
-          "note": "This is another note for the same paragraph."
+          "note": "The Red Eye Removal tool removes the colour red. Pets' eyes become green instead of red, so the tool won't work in this situtation."
         }
       ]
     },
