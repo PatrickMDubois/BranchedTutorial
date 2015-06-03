@@ -22,11 +22,13 @@
     },
     {
       "type": "paragraph",
-      "text": "Here’s one technique that I like to use. I’m going to illustrate it on a pet photo featuring “green eye”, but the same trick works on people with red eye, too."
+      "text": "Here’s one technique that I like to use. I’m going to illustrate it on a pet photo featuring “green eye”, but the same trick works on people with red eye, too.",
+      "branch": "GIMP"
     },
     {
       "type": "image",
-      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-1.jpg"
+      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-1.jpg",
+      "branch": "GIMP"
     },
     {
       "type": "paragraph",

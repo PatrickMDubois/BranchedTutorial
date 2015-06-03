@@ -2,9 +2,11 @@
     <h1 class="title" ng-if="element.type=='title'">{{element.text}}</h1>
     <p class="paragraph" ng-if="element.type=='paragraph'">{{element.text}}</p>
     <img class="image" ng-if="element.type=='image'" src="{{element.url}}" />
+
     <div class="notes" ng-if="element.hasOwnProperty('notes')" ng-show="showNotes">
         <p  ng-repeat="note in element.notes">{{note.note}}</p>
     </div>
+
     <div ng-if="element.type=='branches'">
         <button class="branch" ng-repeat="branch in element.branches">{{branch}}</button>
     </div>
