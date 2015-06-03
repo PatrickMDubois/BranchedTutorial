@@ -6,7 +6,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Recent versions of Photoshop have an automatic Red Eye Removal tool. But what do you do when that tool fails as it does all too often with people, and always with pets?",
+      "text": "Recent versions of photo editing software have an automatic red eye removal tool. But what do you do when that tool fails as it does all too often with people, and always with pets?",
       "notes": [
         {
           "note": "The Red Eye Removal tool removes the colour red. Pets' eyes become green instead of red, so the tool won't work in this situtation."
@@ -14,109 +14,113 @@
       ]
     },
     {
-      "type": "branches",
-      "branches": [
-        "GIMP",
-        "Photoshop"
+      "type": "paragraph",
+      "text": "Here’s one technique that I like to use. I’m going to illustrate it on a pet photo featuring “green eye”, but the same trick works on people with red eye, too."
+    },
+    {
+      "type": "image",
+      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-1.jpg"
+    },
+    {
+      "type": "branch",
+      "text": "GIMP",
+      "branch": [
+
       ]
     },
     {
-      "type": "paragraph",
-      "text": "Here’s one technique that I like to use. I’m going to illustrate it on a pet photo featuring “green eye”, but the same trick works on people with red eye, too.",
-      "branch": "GIMP"
-    },
-    {
-      "type": "image",
-      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-1.jpg",
-      "branch": "GIMP"
-    },
-    {
-      "type": "paragraph",
-      "text": "1. Zoom in on the eye of your subject"
-    },
-    {
-      "type": "image",
-      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-2.jpg"
-    },
-    {
-      "type": "paragraph",
-      "text": "2. Get your Paintbrush (Keyboard shortcut B)"
-    },
-    {
-      "type": "paragraph",
-      "text": "3. Set your foreground color to black"
-    },
-    {
-      "type": "image",
-      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-3.jpg"
-    },
-    {
-      "type": "paragraph",
-      "text": "4. In the options bar, set the brush mode to Color, opacity 100%"
-    },
-    {
-      "type": "image",
-      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-4.jpg"
-    },
-    {
-      "type": "paragraph",
-      "text": "By painting with the brush in this mode, we will desaturate the area that we paint."
-    },
-    {
-      "type": "paragraph",
-      "text": "5. Using a small brush with a medium-soft edge, paint the mis-colored part of the eye to desaturate it."
-    },
-    {
-      "type": "image",
-      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-5.jpg"
-    },
-    {
-      "type": "paragraph",
-      "text": "Since all we are doing is desaturating, this leaves the highlight and other gradients that reveal the shape of the eye intact. If we simply painted black we would destroy these details that make the eye look realistic."
-    },
-    {
-      "type": "paragraph",
-      "text": "After desaturating, all we need to do is darken the pupil."
-    },
-    {
-      "type": "paragraph",
-      "text": "6. Get the Burn tool"
-    },
-    {
-      "type": "image",
-      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-6.jpg"
-    },
-    {
-      "type": "paragraph",
-      "text": "7. In the options bar, select Midtones, Exposure 20%"
-    },
-    {
-      "type": "image",
-      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-7.jpg"
-    },
-    {
-      "type": "paragraph",
-      "text": "8. Paint gradually in the pupil to burn (darken) the Midtones"
-    },
-    {
-      "type": "image",
-      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-8.jpg"
-    },
-    {
-      "type": "paragraph",
-      "text": "By restricting our burn to the Midtones, we avoid destroying the highlight in the eye or darkening that natural rim around the eye. We only affect the middle gray that was originally colored red or green."
-    },
-    {
-      "type": "paragraph",
-      "text": "9. Darken the pupil to a reasonably dark gray (not pure black), and you’re done!"
-    },
-    {
-      "type": "image",
-      "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-9.jpg"
-    },
-    {
-      "type": "paragraph",
-      "text": "Of course, this technique won’t work in every case, because there are a lot of different types of “red eye” in people and animals, but it’s usually my first go-to method for tough cases."
+      "type": "branch",
+      "text": "Photoshop",
+      "branch": [
+        {
+          "type": "paragraph",
+          "text": "1. Zoom in on the eye of your subject"
+        },
+        {
+          "type": "image",
+          "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-2.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Get your Paintbrush (Keyboard shortcut B)"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Set your foreground color to black"
+        },
+        {
+          "type": "image",
+          "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-3.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. In the options bar, set the brush mode to Color, opacity 100%"
+        },
+        {
+          "type": "image",
+          "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-4.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "By painting with the brush in this mode, we will desaturate the area that we paint."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. Using a small brush with a medium-soft edge, paint the mis-colored part of the eye to desaturate it."
+        },
+        {
+          "type": "image",
+          "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-5.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Since all we are doing is desaturating, this leaves the highlight and other gradients that reveal the shape of the eye intact. If we simply painted black we would destroy these details that make the eye look realistic."
+        },
+        {
+          "type": "paragraph",
+          "text": "After desaturating, all we need to do is darken the pupil."
+        },
+        {
+          "type": "paragraph",
+          "text": "6. Get the Burn tool"
+        },
+        {
+          "type": "image",
+          "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-6.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "7. In the options bar, select Midtones, Exposure 20%"
+        },
+        {
+          "type": "image",
+          "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-7.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "8. Paint gradually in the pupil to burn (darken) the Midtones"
+        },
+        {
+          "type": "image",
+          "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-8.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "By restricting our burn to the Midtones, we avoid destroying the highlight in the eye or darkening that natural rim around the eye. We only affect the middle gray that was originally colored red or green."
+        },
+        {
+          "type": "paragraph",
+          "text": "9. Darken the pupil to a reasonably dark gray (not pure black), and you’re done!"
+        },
+        {
+          "type": "image",
+          "url": "http://www.digital-photography-school.com/wp-content/uploads/2011/03/steele-redeye-9.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Of course, this technique won’t work in every case, because there are a lot of different types of “red eye” in people and animals, but it’s usually my first go-to method for tough cases."
+        }
+      ]
     }
   ],
   "GIMP": [
