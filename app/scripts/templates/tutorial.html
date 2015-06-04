@@ -6,13 +6,4 @@
     <div class="notes" ng-if="element.hasOwnProperty('notes')" ng-show="showNotes">
         <p  ng-repeat="note in element.notes">{{note.note}}</p>
     </div>
-
-    <div ng-if="element.type=='branches'">
-        <button class="branch" ng-repeat="branch in element.branches">{{branch}}</button>
-    </div>
-
-    <button class="branch" ng-if="element.type=='branch'">{{element.text}}</button>
-
-    <!-- TODO: Fix infinite loop? -->
-    <!--<tutorial ng-if="element.type=='branch'" tutorial="element.branch"></tutorial>-->
 </div>
