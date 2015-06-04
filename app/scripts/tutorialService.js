@@ -5,7 +5,7 @@ angular.module('BranchedTutorial')
         var tutorial = {},
             promise;
 
-        promise = $http.get('/data/tutorial.json')
+        promise = $http.get('/data/stubdata.json')
             .then(function(response) {
                 for (var property in response.data) {
                     if (response.data.hasOwnProperty(property)) {

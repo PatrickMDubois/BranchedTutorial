@@ -1,0 +1,45 @@
+{
+  "config": {
+    "versions": ["CS6", "CS5", "GIMP"]
+  },
+  "Photoshop":[
+    {
+      "type": "title",
+      "text": "Photoshop Tutorial"
+    },
+    {
+      "type": "paragraph",
+      "text": "Paragraph for Photoshop"
+    },
+    {
+      "type": "branch",
+      "name": "CS6",
+      "branch":[
+        {
+          "type": "paragraph",
+          "text": "Paragraph for CS6"
+        }
+      ]
+    },
+    {
+      "type": "branch",
+      "name": "CS5",
+      "branch":[
+        {
+          "type": "paragraph",
+          "text": "Paragraph for CS5"
+        }
+      ]
+    }
+  ],
+  "GIMP": [
+    {
+      "type": "title",
+      "text": "GIMP Tutorial"
+    },
+    {
+      "type": "paragraph",
+      "text": "Paragraph for GIMP"
+    }
+  ]
+}
