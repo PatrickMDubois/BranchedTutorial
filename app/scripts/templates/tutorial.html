@@ -7,11 +7,12 @@
         <p  ng-repeat="note in element.notes">{{note.note}}</p>
     </div>
 
-    <div class="branch" ng-if="element.type=='branch'" ng-click="tutorial.selectedBranch = element.name">
-        {{element.name}}
+    <div ng-if="element.type=='branches'" ng-repeat="branch in element.branches">
+        <div class="branch" ng-click="tutorial.selectedBranch = branch">
+            {{branch}}
+        </div>
     </div>
 
-    <p ng-if="tutorial.selectedBranch==element.name" ng-repeat="subelement in element.branch">
-        {{subelement.text}}
-    </p>
+    <tutorial ng-if="element.type=='branch' && tutorial.selectedBranch==element.name"
+              tutorial="element.branch"></tutorial>
 </div>

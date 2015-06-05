@@ -12,12 +12,30 @@
       "text": "Paragraph for Photoshop"
     },
     {
+      "type": "branches",
+      "branches": ["CS6", "CS5"]
+    },
+    {
       "type": "branch",
       "name": "CS6",
       "branch":[
         {
           "type": "paragraph",
           "text": "Paragraph for CS6"
+        },
+        {
+          "type": "branches",
+          "branches": ["CS4"]
+        },
+        {
+          "type": "branch",
+          "name": "CS4",
+          "branch":[
+            {
+              "type": "paragraph",
+              "text": "Paragraph for CS4"
+            }
+          ]
         }
       ]
     },
@@ -28,6 +46,20 @@
         {
           "type": "paragraph",
           "text": "Paragraph for CS5"
+        },
+        {
+          "type": "branches",
+          "branches": ["CS3"]
+        },
+        {
+          "type": "branch",
+          "name": "CS3",
+          "branch":[
+            {
+              "type": "paragraph",
+              "text": "Paragraph for CS3"
+            }
+          ]
         }
       ]
     }

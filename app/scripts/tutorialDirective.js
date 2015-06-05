@@ -1,5 +1,5 @@
 angular.module('BranchedTutorial')
-    .directive('tutorial', function() {
+    .directive('tutorial', function(RecursionHelper) {
         'use strict';
 
         return {
@@ -10,6 +10,11 @@ angular.module('BranchedTutorial')
             },
             controller: function($scope) {
                 // ...
+            },
+            compile: function(element) {
+                return RecursionHelper.compile(element, function(scope, iElement, iAttrs, controller, transcludeFn){
+
+                });
             }
         }
     });
