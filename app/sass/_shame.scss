@@ -13,8 +13,13 @@ body{
   float: right;
 }
 
-.tutorial-object{
+.tutorial{
   margin: 10px 0 0 20px;
+  clear: both;
+}
+
+.clear{
+  clear: both;
 }
 
 .title{
@@ -32,8 +37,17 @@ body{
   margin: 5px;
   color: #00c;
   float: left;
+  cursor: pointer;
 
-    &:hover{
-      color: #005;
-    }
+  &:hover{
+    color: #005;
+  }
+}
+
+.selected{
+  color: #c00;
+
+  &:hover{
+    color: #500;
+  }
 }

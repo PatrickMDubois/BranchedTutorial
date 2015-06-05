@@ -1,39 +1,27 @@
 {
-  "config": {
-    "versions": ["CS6", "CS5", "GIMP"]
-  },
   "Photoshop":[
     {
       "type": "title",
-      "text": "Photoshop Tutorial"
+      "text": "How to Remove Red Eye"
     },
     {
       "type": "paragraph",
-      "text": "Paragraph for Photoshop"
+      "text": "People can get red eyes when you take pictures. This is how you remove them."
     },
     {
       "type": "branches",
-      "branches": ["CS6", "CS5"]
+      "branches": ["GIMP", "Photoshop"]
     },
     {
       "type": "branch",
-      "name": "CS6",
+      "name": "GIMP",
       "branch":[
         {
           "type": "paragraph",
-          "text": "Paragraph for CS6"
-        },
-        {
-          "type": "branches",
-          "branches": ["CS4"]
-        },
-        {
-          "type": "branch",
-          "name": "CS4",
-          "branch":[
+          "text": "You can use the Remove Red Eye tool to do it automatically.",
+          "notes": [
             {
-              "type": "paragraph",
-              "text": "Paragraph for CS4"
+              "note": "The tool can be found somewhere."
             }
           ]
         }
@@ -41,23 +29,33 @@
     },
     {
       "type": "branch",
-      "name": "CS5",
+      "name": "Photoshop",
       "branch":[
         {
           "type": "paragraph",
-          "text": "Paragraph for CS5"
+          "text": "Select the eyes with selection tool."
         },
         {
           "type": "branches",
-          "branches": ["CS3"]
+          "branches": ["CS6", "CS2"]
         },
         {
           "type": "branch",
-          "name": "CS3",
+          "name": "CS6",
           "branch":[
             {
               "type": "paragraph",
-              "text": "Paragraph for CS3"
+              "text": "Use the remove red eye tool."
+            }
+          ]
+        },
+        {
+          "type": "branch",
+          "name": "CS2",
+          "branch":[
+            {
+              "type": "paragraph",
+              "text": "Use the paintbrush."
             }
           ]
         }

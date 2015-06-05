@@ -1,4 +1,4 @@
-<div class="tutorial-object" ng-repeat="element in tutorial" ng-click="showNotes = !showNotes">
+<div class="clear" ng-repeat="element in tutorial" ng-click="showNotes = !showNotes">
     <h1 class="title" ng-if="element.type=='title'">{{element.text}}</h1>
     <p class="paragraph" ng-if="element.type=='paragraph'">{{element.text}}</p>
     <img class="image" ng-if="element.type=='image'" src="{{element.url}}" />
@@ -8,7 +8,8 @@
     </div>
 
     <div ng-if="element.type=='branches'" ng-repeat="branch in element.branches">
-        <div class="branch" ng-click="tutorial.selectedBranch = branch">
+        <div class="branch" ng-class="{selected: tutorial.selectedBranch==branch}"
+             ng-click="tutorial.selectedBranch = branch">
             {{branch}}
         </div>
     </div>
