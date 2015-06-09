@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" ng-app="BranchedTutorial">
+  <head>
+    <meta charset="UTF-8">
+    <title>Branched Tutorial</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/modernizr.js"></script>
+  </head>
+  <body class="tutorial" ng-controller="mainController">
+    <select class="version-select" ng-model="selectedVersion"
+            ng-options="version for version in versions">
+    </select>
+
+    <tutorial ng-repeat="(version, data) in tutorial"
+              ng-if="version == selectedVersion"
+              tutorial="data">
+    </tutorial>
+
+    <script src="scripts/dependencies.js"></script>
+
+    <script src="scripts/templates.js"></script>
+
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

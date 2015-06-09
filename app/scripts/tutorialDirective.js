@@ -4,7 +4,7 @@ angular.module('BranchedTutorial')
 
         return {
             restrict: 'E',
-            templateUrl: 'templates/tutorial.html',
+            templateUrl: 'tutorial.html',
             scope: {
                 tutorial: '='
             },

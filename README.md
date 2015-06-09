@@ -1,13 +1,12 @@
-Frontend Boilerplate
-===========
-
-Preconfigured Grunt with standard tasks:
-* SASS compilation with Compass + watch
-* Local server with autoreload
-
-SMACSS + OOCSS stylesheet structure, includes:
-* normalize.css + some custom resets
-* few useful mixins and functions
-* general OOCSS abstractions (media element, island, flag, ...)
-* stylesheets for basic layout handling
-* CSS Wizardry Grid
+1. globally install gulp and bower:
+```
+npm install -g gulp bower
+```
+2. install project dependencies
+```
+npm install
+```
+3. start project
+```
+npm start
+```
