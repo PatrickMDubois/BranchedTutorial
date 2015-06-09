@@ -1476,11 +1476,7 @@ iframe {
  *
  */
 body {
-  width: 700px;
-}
-
-.version-select {
-  float: right;
+  width: 1000px;
 }
 
 .tutorial {
@@ -1488,34 +1484,18 @@ body {
   clear: both;
 }
 
-.clear {
-  clear: both;
-}
-
 .title {
   font-size: 20px;
 }
 
+.content {
+  float: left;
+}
+
 .notes {
-  margin-left: 50px;
-  border: black 1px solid;
+  border: #666 1px solid;
   border-radius: 5px;
   padding: 5px;
-}
-
-.branch {
-  margin: 5px;
-  color: #00c;
+  margin: 0 0 0 5px;
   float: left;
-  cursor: pointer;
-}
-.branch:hover {
-  color: #005;
-}
-
-.selected {
-  color: #c00;
-}
-.selected:hover {
-  color: #500;
 }

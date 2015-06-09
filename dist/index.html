@@ -8,14 +8,7 @@
     <script src="scripts/modernizr.js"></script>
   </head>
   <body class="tutorial" ng-controller="mainController">
-    <select class="version-select" ng-model="selectedVersion"
-            ng-options="version for version in versions">
-    </select>
-
-    <tutorial ng-repeat="(version, data) in tutorial"
-              ng-if="version == selectedVersion"
-              tutorial="data">
-    </tutorial>
+    <tutorial ng-repeat="data in tutorial" tutorial="data"></tutorial>
 
     <script src="scripts/dependencies.js"></script>
 

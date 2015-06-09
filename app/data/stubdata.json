@@ -1,75 +1,19 @@
 {
-  "Photoshop":[
+  "tutorial":[
     {
-      "type": "title",
-      "text": "How to Remove Red Eye"
-    },
-    {
-      "type": "paragraph",
-      "text": "People can get red eyes when you take pictures. This is how you remove them."
-    },
-    {
-      "type": "branches",
-      "branches": ["GIMP", "Photoshop"]
-    },
-    {
-      "type": "branch",
-      "name": "GIMP",
-      "branch":[
-        {
-          "type": "paragraph",
-          "text": "You can use the Remove Red Eye tool to do it automatically.",
-          "notes": [
-            {
-              "note": "The tool can be found somewhere."
-            }
-          ]
-        }
+      "text": [
+        "This is how you complete this step.",
+        "I rewrote this step to be clearer."
+      ],
+      "screenshots": [
+        "http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg",
+        "http://www.online-image-editor.com//styles/2014/images/example_image.png"
+      ],
+      "notes": [
+        "Here is a note for this step. The command X can be found under menu Y.",
+        "Here is a second note.",
+        "Third note."
       ]
-    },
-    {
-      "type": "branch",
-      "name": "Photoshop",
-      "branch":[
-        {
-          "type": "paragraph",
-          "text": "Select the eyes with selection tool."
-        },
-        {
-          "type": "branches",
-          "branches": ["CS6", "CS2"]
-        },
-        {
-          "type": "branch",
-          "name": "CS6",
-          "branch":[
-            {
-              "type": "paragraph",
-              "text": "Use the remove red eye tool."
-            }
-          ]
-        },
-        {
-          "type": "branch",
-          "name": "CS2",
-          "branch":[
-            {
-              "type": "paragraph",
-              "text": "Use the paintbrush."
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "GIMP": [
-    {
-      "type": "title",
-      "text": "GIMP Tutorial"
-    },
-    {
-      "type": "paragraph",
-      "text": "Paragraph for GIMP"
     }
   ]
 }

@@ -78,9 +78,6 @@ angular.module('BranchedTutorial')
         TutorialService.loaded
             .then(function() {
                 $scope.tutorial = TutorialService.tutorial;
-
-                $scope.versions = Object.keys($scope.tutorial);
-                $scope.selectedVersion = $scope.versions[0];
             });
 
     });
