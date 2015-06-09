@@ -2,8 +2,8 @@
     <div class="content">
         <div>{{element.text[0]}}</div>
         <div ng-mouseover="overImage=true" ng-mouseleave="overImage=false" class="image-container">
-            <img src="{{element.screenshots[0]}}" />
-            <div class="image-tag" ng-show="overImage">See {{element.screenshots.length}} images.</div>
+            <img src="{{element.images[0]}}" />
+            <div class="image-tag" ng-show="overImage" ng-click="seeImages=true">See {{element.images.length}} images.</div>
         </div>
     </div>
     <div class="notes">
@@ -11,5 +11,8 @@
             {{note}}
             <hr ng-if="!$last" />
         </div>
+    </div>
+    <div ng-show="seeImages">
+        <img ng-repeat="image in element.images" src="{{image}}" />
     </div>
 </div>
