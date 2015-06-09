@@ -7,7 +7,10 @@ module.run(["$templateCache", function($templateCache) {
     "<div class=\"tutorial\" ng-repeat=\"element in tutorial\">\n" +
     "    <div class=\"content\">\n" +
     "        <div>{{element.text[0]}}</div>\n" +
-    "        <img src=\"{{element.screenshots[0]}}\" />\n" +
+    "        <div ng-mouseover=\"overImage=true\" ng-mouseleave=\"overImage=false\" class=\"image-container\">\n" +
+    "            <img src=\"{{element.screenshots[0]}}\" />\n" +
+    "            <div class=\"image-tag\" ng-show=\"overImage\">See {{element.screenshots.length}} images.</div>\n" +
+    "        </div>\n" +
     "    </div>\n" +
     "    <div class=\"notes\">\n" +
     "        <div ng-repeat=\"note in element.notes\">\n" +

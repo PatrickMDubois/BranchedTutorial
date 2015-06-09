@@ -1,7 +1,10 @@
 <div class="tutorial" ng-repeat="element in tutorial">
     <div class="content">
         <div>{{element.text[0]}}</div>
-        <img src="{{element.screenshots[0]}}" />
+        <div ng-mouseover="overImage=true" ng-mouseleave="overImage=false" class="image-container">
+            <img src="{{element.screenshots[0]}}" />
+            <div class="image-tag" ng-show="overImage">See {{element.screenshots.length}} images.</div>
+        </div>
     </div>
     <div class="notes">
         <div ng-repeat="note in element.notes">
