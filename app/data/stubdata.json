@@ -1,18 +1,14 @@
 {
-  "tutorial":[
+  "new-version":[
     {
-      "text": [
-        "This is how you complete this step.",
-        "I rewrote this step to be clearer."
-      ],
-      "images": [
-        "http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg",
-        "http://www.online-image-editor.com//styles/2014/images/example_image.png"
-      ],
-      "notes": [
-        "Here is a note for this step. The command X can be found under Y.",
-        "Here is a second note.",
-        "Third note."
+      "label": "New Version",
+      "colour": "light-blue",
+      "changes": [
+        {
+          "text": "This is new text",
+          "start": 5,
+          "end": 10
+        }
       ]
     }
   ]

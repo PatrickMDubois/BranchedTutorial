@@ -79,7 +79,6 @@ angular.module('BranchedTutorial')
             .then(function() {
                 $scope.tutorial = TutorialService.tutorial;
             });
-
     });
 angular.module('BranchedTutorial')
     .directive('tutorial', function(RecursionHelper) {

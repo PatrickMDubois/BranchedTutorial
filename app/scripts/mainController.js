@@ -6,5 +6,4 @@ angular.module('BranchedTutorial')
             .then(function() {
                 $scope.tutorial = TutorialService.tutorial;
             });
-
     });
