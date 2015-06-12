@@ -10,7 +10,12 @@
     <script src="scripts/modernizr.js"></script>
   </head>
   <body class="tutorial" ng-controller="mainController">
-    <!--<tutorial ng-repeat="data in tutorial" tutorial="data"></tutorial>-->
+    <div class="version-list">
+      <div ng-click="selectedVersion = 'Original'">Original</div>
+      <div ng-repeat="version in tutorial" ng-click="$parent.selectedVersion = version.label">
+        {{version.label}}
+      </div>
+    </div>
 
     <div class="editable">
       <h1>How To Remove Red Eyes With GIMP</h1>

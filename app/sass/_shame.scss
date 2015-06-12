@@ -14,32 +14,7 @@ body{
   margin: 10px 0 0 20px;
 }
 
-.title{
-  font-size: 20px;
-}
-
-.content{
-  float: left;
-}
-
-.image-container{
-  position: relative;
-}
-
-.image-tag{
-  background-color: #000;
-  bottom: 7px;
-  color: #eee;
-  cursor: pointer;
-  padding: 0 5px 0 5px;
-  position: absolute;
-  right: 0px;
-}
-
-.notes{
-  border: #666 1px solid;
-  border-radius: 5px;
-  float: left;
-  margin: 0 0 0 5px;
-  padding: 5px;
+.version-list{
+  float: right;
+  border: black solid 1px;
 }

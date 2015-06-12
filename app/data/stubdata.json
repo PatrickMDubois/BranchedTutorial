@@ -1,5 +1,5 @@
 {
-  "new-version":[
+  "new-version":
     {
       "label": "New Version",
       "colour": "light-blue",
@@ -11,5 +11,4 @@
         }
       ]
     }
-  ]
 }
