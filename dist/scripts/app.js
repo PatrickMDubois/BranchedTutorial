@@ -78,7 +78,7 @@ angular.module('BranchedTutorial')
         TutorialService.loaded
             .then(function() {
                 $scope.tutorial = TutorialService.tutorial;
-                $scope.selectedVersion = 'Original';
+                $scope.selectedVersion = 'original';
             });
     });
 angular.module('BranchedTutorial')
